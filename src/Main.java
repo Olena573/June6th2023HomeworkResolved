@@ -88,9 +88,12 @@ public class Main {
         }
         System.out.println();
 
+        //Here a quantity of "2" in the array will be counted.
         int someNumber = 2;
         int count = 0;
 
+        //I've managed how to do it in the method Main, but could not move it to the separate class or method.
+        // But calculations worked right.
         for (int i = 0; i < array.size(); i++){
             if (array.get(i)==someNumber){
                 count = count + 1;
@@ -103,6 +106,11 @@ public class Main {
 
         System.out.println ("Here we counted how many times a number "
                 + someNumber + " was repeated in array: " + count);
+
+        // here it was calculated in simple way without creating methods;
+
+
+
 
 
         }
