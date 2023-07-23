@@ -88,5 +88,22 @@ public class Main {
         }
         System.out.println();
 
+        int someNumber = 2;
+        int count = 0;
+
+        for (int i = 0; i < array.size(); i++){
+            if (array.get(i)==someNumber){
+                count = count + 1;
+
+            } else {
+                count = count;
+            }
+
+        }
+
+        System.out.println ("Here we counted how many times a number "
+                + someNumber + " was repeated in array: " + count);
+
+
         }
     }
